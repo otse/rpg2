@@ -1,8 +1,33 @@
-// Type a sentence here. Lol
+<html>
 
-// Asd
-// Giver or a taker
+<head>
+    <title>land of dread</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="landofdread.js"></script>
+    <!--<script src="js/rpg2.js" type="module"></script>
+    -->
+	<script>
+		var rpg2;
+	</script>
+	
+    <script type="module">
+		import { default as backwards } from "/js/rpg2.js";
+        rpg2 = backwards;
+    </script>
 
-// Are you crazy?
+    <script>
+        document.addEventListener('DOMContentLoaded', function (event) {
+            rpg2.boot('');
+        });
+    </script>
+</head>
 
-//
+<body>
+
+    <y-main>
+
+    </y-main>
+
+</body>
+
+</html>
